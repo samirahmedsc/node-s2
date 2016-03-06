@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/mapbox/node-s2.svg?branch=master)](https://travis-ci.org/mapbox/node-s2)
-
-# node-s2
+# Custom Build of Original node-s2
 
 Bindings for the [S2 Geometry Library](https://code.google.com/p/s2-geometry-library/) into
 [node.js](http://nodejs.org/).

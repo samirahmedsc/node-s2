@@ -181,7 +181,7 @@ NAN_METHOD(CellId::Contains) {
 NAN_METHOD(CellId::Id) {
     NanScope();
     CellId* obj = node::ObjectWrap::Unwrap<CellId>(args.This());
-    NanReturnValue(Number::New(obj->this_.id()));
+    NanReturnValue(NanNew(UInt64ToString(obj->this_.id()).c_str()));
 }
 
 NAN_METHOD(CellId::Child) {
